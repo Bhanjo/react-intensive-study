@@ -1,13 +1,11 @@
-import { useEffect } from 'react';
+import React from 'react';
 
 interface Props {
   getTodos: () => void;
 }
 
 const Todos = ({ getTodos }: Props) => {
-  useEffect(() => {
-    console.log('todos가 변했어요', getTodos());
-  }, [getTodos]);
+  console.log('리렌더', getTodos());
 
   return (
     <>
@@ -16,4 +14,4 @@ const Todos = ({ getTodos }: Props) => {
   );
 };
 
-export default Todos;
+export default React.memo(Todos);
