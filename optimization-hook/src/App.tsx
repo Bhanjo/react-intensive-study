@@ -1,10 +1,10 @@
 import './App.css';
-import UseMemo from './component/UseMemo';
+import TestMemo from './component/TestMemo';
 
 function App() {
   return (
     <>
-      <UseMemo />
+      <TestMemo />
     </>
   );
 }
