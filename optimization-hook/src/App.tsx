@@ -1,10 +1,10 @@
 import './App.css';
-import UseCallback from './component/Usecallback';
+import UseMemo from './component/UseMemo';
 
 function App() {
   return (
     <>
-      <UseCallback />
+      <UseMemo />
     </>
   );
 }
