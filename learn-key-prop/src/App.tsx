@@ -1,25 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const appendLiEl = () => {
+    setList((prev) => [...prev, prev.length + 1]);
+  };
+  const [list, setList] = useState([1, 2]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <button onClick={appendLiEl}>추가하기</button>
+      <ul>
+        {/* key 쓰지 않음 */}
+        {list.map((item) => (
+          <li>{item}</li>
+        ))}
+      </ul>
+    </>
   );
 }
 
