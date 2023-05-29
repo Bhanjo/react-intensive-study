@@ -1,25 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import KeyTest from './component/KeyTest';
 
 function App() {
+  // const appendLiEl = () => {
+  //   const prevList = [...list];
+  //   prevList.splice(5000, 0, '새로추가');
+  //   setList(prevList);
+  // };
+  // const [list, setList] = useState(new Array(10000).fill('기존내용'));
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <>
+    //   <button onClick={appendLiEl}>추가하기</button>
+    //   <ul>
+    //     {/* 의문, key prop을 쓰지 않은 것이 0.5s ~ 0.7s 더 빠르다. 왜?? */}
+    //     {list.map((item, idx) => (
+    //       // <li key={idx}>{item}</li>
+    //       <li>{item}</li>
+    //     ))}
+    //   </ul>
+    // </>
+    <>
+      <KeyTest />
+    </>
   );
 }
 
