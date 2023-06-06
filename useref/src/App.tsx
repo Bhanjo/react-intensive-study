@@ -1,15 +1,12 @@
-import {
-  AvoidRefRecreating,
-  UseRefTest,
-  WriteRefDuringRerender,
-} from './component';
+import { AvoidRefRecreating, UseRefTest, WriteRefDuringRerender, UseRefDIY } from './component';
 
 function App() {
   return (
     <>
       {/* <UseRefTest /> */}
       {/* <WriteRefDuringRerender /> */}
-      <AvoidRefRecreating />
+      {/* <AvoidRefRecreating /> */}
+      <UseRefDIY />
     </>
   );
 }
