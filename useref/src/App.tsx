@@ -1,4 +1,10 @@
-import { AvoidRefRecreating, UseRefTest, WriteRefDuringRerender, UseRefDIY } from './component';
+import {
+  AvoidRefRecreating,
+  UseRefTest,
+  WriteRefDuringRerender,
+  UseRefDIY,
+  UseRefDIY2,
+} from './component';
 
 function App() {
   return (
@@ -7,6 +13,7 @@ function App() {
       {/* <WriteRefDuringRerender /> */}
       {/* <AvoidRefRecreating /> */}
       <UseRefDIY />
+      <UseRefDIY2 />
     </>
   );
 }
