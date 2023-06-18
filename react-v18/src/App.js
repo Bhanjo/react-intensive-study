@@ -1,9 +1,11 @@
 import { PracticeUseTransition } from './components';
+import { PracticeUseDefferdValue } from './components/PracticeuseDeferredValue';
 
 function App() {
   return (
     <>
-      <PracticeUseTransition />
+      {/* <PracticeUseTransition /> */}
+      <PracticeUseDefferdValue />
     </>
   );
 }
