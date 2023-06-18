@@ -8,3 +8,4 @@
 2. [key prop의 목적과 Reconciliation](https://www.notion.so/Key-Props-35ad08f2b4fc41f39cf1a82d3eb478a0?pvs=4)
 3. [useRef 분석](https://www.notion.so/useRef-f25a272a881b44f8a2718d1076f9bcbd?pvs=4)
 4. [리액트 리렌더와 라이프사이클](https://www.notion.so/e53855275d1948bbbd2e8057a9fab87a?pvs=4)
+5. [리액트 v18 살펴보기](https://literate-web-05f.notion.site/v18-76fed6c786d84d6e9ba6d542b2d7b642?pvs=4)
