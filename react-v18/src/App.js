@@ -1,11 +1,16 @@
-import { PracticeUseTransition } from './components';
-import { PracticeUseDefferdValue } from './components/PracticeuseDeferredValue';
+import { Suspense, lazy } from 'react';
+import {
+  PracticeUseTransition,
+  PracticeUseDefferdValue,
+  PracticeSuspense,
+} from './components';
 
 function App() {
   return (
     <>
       {/* <PracticeUseTransition /> */}
-      <PracticeUseDefferdValue />
+      {/* <PracticeUseDefferdValue /> */}
+      <PracticeSuspense />
     </>
   );
 }

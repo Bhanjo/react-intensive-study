@@ -1,2 +1,3 @@
 export * from './PracticeUseTransition';
-export * from './PracticeuseDeferredValue';
+export * from './PracticeUseDeferredValue';
+export * from './PracticeSuspense';
